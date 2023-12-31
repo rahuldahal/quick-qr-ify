@@ -9,20 +9,23 @@
       rel="stylesheet"
     />
   </head>
-  <body class="p-4">
+  <body class="w-60 p-4">
     <div class="mb-4">
       <label for="inputText" class="block text-sm font-medium text-gray-600"
         >Input Text</label
       >
       <textarea
+        autofocus
         id="inputText"
         class="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
       ></textarea>
     </div>
-    <button id="QRify" class="bg-indigo-500 text-white px-4 py-2 rounded-md">
+    <button
+      id="QRify"
+      class="bg-indigo-500 text-white px-4 py-2 rounded-md w-full hover:bg-indigo-600"
+    >
       QRify now
     </button>
-    <div id="qrcode" class="mt-4"></div>
     <script src="popup.js"></script>
   </body>
 </html>
