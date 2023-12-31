@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "QR Code Generator",
+  "name": "Quick QRify",
   "version": "0.1.0",
   "description": "Generate QR codes for selected text",
   "action": {
@@ -14,8 +14,8 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "matches": ["*://*/*"],
+      "js": ["contentScript.js"]
     }
   ],
   "icons": {
