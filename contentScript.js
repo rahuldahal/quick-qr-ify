@@ -1212,10 +1212,16 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
     // ends
 
+    // generate QR code
     new QRCode(qrCodeElement, {
       text: request.text,
       width: 128,
       height: 128,
+    });
+
+    // remove inserted elements from the DOM
+    qrContainer.addEventListener('click', () => {
+      document.body.removeChild(qrContainer);
     });
   }
 });
