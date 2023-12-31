@@ -1,5 +1,8 @@
 # QuickQRify - Chrome Extension
 
+- Video URL: [Youtube](https://youtu.be/MaE6e1GZnxs)
+- Slides URL: [Google Slides](https://docs.google.com/presentation/d/1aXWCyfP9_guvL45EH9ODF6VPNtE2Is31VKU6Q0DVMQk/edit?usp=sharing)
+
 ## Overview
 
 QuickQRify is a Chrome browser extension that simplifies the process of generating QR codes for selected text on webpages. It provides a quick and convenient way for users, especially students, to share resources by converting selected text, such as URLs or any other information, into QR codes.
